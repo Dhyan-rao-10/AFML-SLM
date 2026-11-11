@@ -1,0 +1,62 @@
+856 verdicts already saved; 744 to go with sonnet (effort low)
+20/744 verdicts (34.8/min), API-equivalent cost so far $0.16
+40/744 verdicts (33.8/min), API-equivalent cost so far $0.31
+60/744 verdicts (35.1/min), API-equivalent cost so far $0.46
+80/744 verdicts (36.0/min), API-equivalent cost so far $0.61
+100/744 verdicts (37.1/min), API-equivalent cost so far $0.75
+120/744 verdicts (37.2/min), API-equivalent cost so far $0.91
+140/744 verdicts (37.5/min), API-equivalent cost so far $1.05
+160/744 verdicts (37.6/min), API-equivalent cost so far $1.20
+180/744 verdicts (38.0/min), API-equivalent cost so far $1.35
+200/744 verdicts (38.0/min), API-equivalent cost so far $1.50
+220/744 verdicts (37.8/min), API-equivalent cost so far $1.64
+240/744 verdicts (37.9/min), API-equivalent cost so far $1.79
+260/744 verdicts (37.9/min), API-equivalent cost so far $1.94
+280/744 verdicts (38.1/min), API-equivalent cost so far $2.09
+300/744 verdicts (38.2/min), API-equivalent cost so far $2.23
+320/744 verdicts (38.5/min), API-equivalent cost so far $2.38
+340/744 verdicts (38.2/min), API-equivalent cost so far $2.53
+360/744 verdicts (38.0/min), API-equivalent cost so far $2.67
+380/744 verdicts (38.1/min), API-equivalent cost so far $2.83
+400/744 verdicts (38.1/min), API-equivalent cost so far $2.97
+420/744 verdicts (38.2/min), API-equivalent cost so far $3.12
+440/744 verdicts (38.4/min), API-equivalent cost so far $3.27
+460/744 verdicts (38.2/min), API-equivalent cost so far $3.41
+480/744 verdicts (38.2/min), API-equivalent cost so far $3.56
+500/744 verdicts (38.3/min), API-equivalent cost so far $3.72
+520/744 verdicts (38.2/min), API-equivalent cost so far $3.86
+540/744 verdicts (38.3/min), API-equivalent cost so far $4.01
+560/744 verdicts (38.4/min), API-equivalent cost so far $4.16
+580/744 verdicts (38.4/min), API-equivalent cost so far $4.30
+600/744 verdicts (38.4/min), API-equivalent cost so far $4.46
+620/744 verdicts (38.4/min), API-equivalent cost so far $4.61
+640/744 verdicts (38.4/min), API-equivalent cost so far $4.74
+660/744 verdicts (38.5/min), API-equivalent cost so far $4.90
+680/744 verdicts (38.5/min), API-equivalent cost so far $5.04
+700/744 verdicts (38.4/min), API-equivalent cost so far $5.18
+720/744 verdicts (38.4/min), API-equivalent cost so far $5.34
+740/744 verdicts (38.4/min), API-equivalent cost so far $5.49
+744/744 verdicts (38.5/min), API-equivalent cost so far $5.51
+saved 744 verdicts, 0 errors, API-equivalent cost $5.51
+| x | y | Prompts | x score (95% CI) | x wins | y wins | Ties | Order-consistent |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| full_masked | base | 200 | 0.784 ± 0.034 | 127 | 2 | 71 | 100% |
+| full_masked | lora_masked | 200 | 0.549 ± 0.045 | 63 | 40 | 97 | 98% |
+| full_masked | full_unmasked | 200 | 0.536 ± 0.043 | 55 | 37 | 108 | 100% |
+| lora_masked | lora_unmasked | 200 | 0.529 ± 0.043 | 56 | 46 | 98 | 99% |
+
+x score: 1 = x always preferred, 0.5 = no preference, 0 = y always preferred (ties count half).
+Order-consistent: share of prompts where the two orderings did not pick different models.
+
+x score by Dolly category:
+
+| Category | full_masked vs base | full_masked vs lora_masked | full_masked vs full_unmasked | lora_masked vs lora_unmasked |
+| --- | --- | --- | --- | --- |
+| brainstorming | 0.73 | 0.53 | 0.46 | 0.54 |
+| classification | 0.78 | 0.49 | 0.53 | 0.62 |
+| closed_qa | 0.76 | 0.49 | 0.49 | 0.42 |
+| creative_writing | 0.90 | 0.69 | 0.69 | 0.60 |
+| general_qa | 0.82 | 0.58 | 0.49 | 0.55 |
+| information_extraction | 0.82 | 0.65 | 0.62 | 0.43 |
+| open_qa | 0.70 | 0.48 | 0.52 | 0.55 |
+| summarization | 1.00 | 0.70 | 0.73 | 0.36 |

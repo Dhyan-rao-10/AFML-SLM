@@ -1,0 +1,13 @@
+{
+  "out_dir": "out/sft/full_unmasked",
+  "mode": "full",
+  "mask_prompt": false,
+  "trainable_params": 43790848,
+  "total_params": 43790848,
+  "train_examples": 64982,
+  "steps": 4062,
+  "final_val_loss": 2.207859709864746,
+  "wall_time_s": 2341.70578289032,
+  "gpu_hours": 0.6504738285806444,
+  "peak_mem_gb": 10.47382784
+}

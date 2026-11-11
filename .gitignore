@@ -1,0 +1,15 @@
+.venv/
+/data/
+/out/
+__pycache__/
+*.pyc
+
+# Course documents, not part of the code
+*.xlsx
+*.docx
+*.pdf
+Details about course project.txt
+templates/
+
+# Judge pilot run (superseded by kaggle_results/out/judge)
+kaggle_results/out/judge_pilot/

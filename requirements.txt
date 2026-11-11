@@ -1,0 +1,11 @@
+# Install CUDA PyTorch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
+torch
+numpy
+tokenizers
+datasets
+huggingface_hub
+pyarrow
+tqdm
+matplotlib
+pytest

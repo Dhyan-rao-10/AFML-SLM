@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/ablations/rmsnorm_s0",
+  "model": {
+    "vocab_size": 8192,
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_kv_head": 6,
+    "d_model": 384,
+    "pos_emb": "learned",
+    "norm": "rmsnorm",
+    "mlp": "gelu",
+    "mlp_hidden": 1536,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 13964160,
+  "params_non_embedding": 10621824,
+  "tokens": 100007936,
+  "final_val_loss": 1.7910964131355285,
+  "best_val_loss": 1.7910964131355285,
+  "wall_time_s": 1137.6532044410706,
+  "tok_per_s": 87907.2248112147,
+  "peak_mem_gb": 4.030511104
+}

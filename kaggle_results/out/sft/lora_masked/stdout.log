@@ -1,0 +1,228 @@
+64,982 train examples (258 longer than 1024 tokens dropped), 998 val
+lora: 1.79M of 45.58M parameters trainable
+step 0: val loss 2.8841
+step 20/4062: loss 2.3288, lr 1.65e-04
+step 40/4062: loss 2.9697, lr 3.31e-04
+step 60/4062: loss 2.4370, lr 4.96e-04
+step 80/4062: loss 2.6565, lr 6.61e-04
+step 100/4062: loss 2.4883, lr 8.26e-04
+step 120/4062: loss 2.4788, lr 9.92e-04
+step 140/4062: loss 2.7084, lr 1.00e-03
+step 160/4062: loss 2.8382, lr 1.00e-03
+step 180/4062: loss 2.3934, lr 1.00e-03
+step 200/4062: loss 2.4012, lr 9.99e-04
+step 200: val loss 2.4706
+step 220/4062: loss 2.7591, lr 9.99e-04
+step 240/4062: loss 2.3027, lr 9.98e-04
+step 260/4062: loss 2.4737, lr 9.97e-04
+step 280/4062: loss 2.2287, lr 9.96e-04
+step 300/4062: loss 2.6362, lr 9.95e-04
+step 320/4062: loss 2.3306, lr 9.94e-04
+step 340/4062: loss 2.3971, lr 9.93e-04
+step 360/4062: loss 2.3689, lr 9.92e-04
+step 380/4062: loss 2.3728, lr 9.91e-04
+step 400/4062: loss 2.2641, lr 9.89e-04
+step 400: val loss 2.4345
+step 420/4062: loss 2.4296, lr 9.87e-04
+step 440/4062: loss 2.2373, lr 9.86e-04
+step 460/4062: loss 2.4276, lr 9.84e-04
+step 480/4062: loss 2.3354, lr 9.82e-04
+step 500/4062: loss 2.2368, lr 9.80e-04
+step 520/4062: loss 2.1795, lr 9.78e-04
+step 540/4062: loss 2.4741, lr 9.75e-04
+step 560/4062: loss 2.3998, lr 9.73e-04
+step 580/4062: loss 2.2800, lr 9.70e-04
+step 600/4062: loss 2.4540, lr 9.68e-04
+step 600: val loss 2.4185
+step 620/4062: loss 2.6130, lr 9.65e-04
+step 640/4062: loss 2.4889, lr 9.62e-04
+step 660/4062: loss 2.8983, lr 9.59e-04
+step 680/4062: loss 2.5979, lr 9.56e-04
+step 700/4062: loss 2.4137, lr 9.53e-04
+step 720/4062: loss 2.3209, lr 9.50e-04
+step 740/4062: loss 2.2824, lr 9.46e-04
+step 760/4062: loss 2.3898, lr 9.43e-04
+step 780/4062: loss 2.4058, lr 9.40e-04
+step 800/4062: loss 2.3849, lr 9.36e-04
+step 800: val loss 2.4009
+step 820/4062: loss 2.4828, lr 9.32e-04
+step 840/4062: loss 2.4024, lr 9.28e-04
+step 860/4062: loss 2.4273, lr 9.24e-04
+step 880/4062: loss 2.1903, lr 9.20e-04
+step 900/4062: loss 2.4738, lr 9.16e-04
+step 920/4062: loss 2.7726, lr 9.12e-04
+step 940/4062: loss 2.5755, lr 9.08e-04
+step 960/4062: loss 2.5482, lr 9.03e-04
+step 980/4062: loss 2.3394, lr 8.99e-04
+step 1000/4062: loss 2.2538, lr 8.94e-04
+step 1000: val loss 2.3899
+step 1020/4062: loss 2.1394, lr 8.90e-04
+step 1040/4062: loss 1.9866, lr 8.85e-04
+step 1060/4062: loss 2.5491, lr 8.80e-04
+step 1080/4062: loss 2.4301, lr 8.75e-04
+step 1100/4062: loss 2.5408, lr 8.70e-04
+step 1120/4062: loss 2.5475, lr 8.65e-04
+step 1140/4062: loss 2.2313, lr 8.60e-04
+step 1160/4062: loss 2.2699, lr 8.55e-04
+step 1180/4062: loss 2.0849, lr 8.49e-04
+step 1200/4062: loss 2.1096, lr 8.44e-04
+step 1200: val loss 2.3819
+step 1220/4062: loss 2.1205, lr 8.38e-04
+step 1240/4062: loss 2.3258, lr 8.33e-04
+step 1260/4062: loss 2.8643, lr 8.27e-04
+step 1280/4062: loss 2.3047, lr 8.22e-04
+step 1300/4062: loss 2.4103, lr 8.16e-04
+step 1320/4062: loss 2.4911, lr 8.10e-04
+step 1340/4062: loss 2.4401, lr 8.04e-04
+step 1360/4062: loss 2.5446, lr 7.98e-04
+step 1380/4062: loss 2.3840, lr 7.92e-04
+step 1400/4062: loss 2.1806, lr 7.86e-04
+step 1400: val loss 2.3728
+step 1420/4062: loss 2.3521, lr 7.80e-04
+step 1440/4062: loss 2.1371, lr 7.74e-04
+step 1460/4062: loss 2.2367, lr 7.67e-04
+step 1480/4062: loss 2.1261, lr 7.61e-04
+step 1500/4062: loss 2.4252, lr 7.55e-04
+step 1520/4062: loss 2.2426, lr 7.48e-04
+step 1540/4062: loss 2.4593, lr 7.42e-04
+step 1560/4062: loss 2.7221, lr 7.35e-04
+step 1580/4062: loss 2.0590, lr 7.29e-04
+step 1600/4062: loss 2.8294, lr 7.22e-04
+step 1600: val loss 2.3668
+step 1620/4062: loss 2.3678, lr 7.16e-04
+step 1640/4062: loss 2.3299, lr 7.09e-04
+step 1660/4062: loss 2.2198, lr 7.02e-04
+step 1680/4062: loss 2.0925, lr 6.95e-04
+step 1700/4062: loss 2.3033, lr 6.89e-04
+step 1720/4062: loss 2.2228, lr 6.82e-04
+step 1740/4062: loss 2.4837, lr 6.75e-04
+step 1760/4062: loss 2.5266, lr 6.68e-04
+step 1780/4062: loss 2.2865, lr 6.61e-04
+step 1800/4062: loss 2.2830, lr 6.54e-04
+step 1800: val loss 2.3560
+step 1820/4062: loss 2.3733, lr 6.47e-04
+step 1840/4062: loss 2.3744, lr 6.40e-04
+step 1860/4062: loss 2.8534, lr 6.33e-04
+step 1880/4062: loss 2.4621, lr 6.26e-04
+step 1900/4062: loss 2.1790, lr 6.19e-04
+step 1920/4062: loss 2.3515, lr 6.12e-04
+step 1940/4062: loss 2.2309, lr 6.05e-04
+step 1960/4062: loss 2.3223, lr 5.97e-04
+step 1980/4062: loss 2.3877, lr 5.90e-04
+step 2000/4062: loss 2.5331, lr 5.83e-04
+step 2000: val loss 2.3515
+step 2020/4062: loss 2.3747, lr 5.76e-04
+step 2040/4062: loss 2.5295, lr 5.69e-04
+step 2060/4062: loss 2.1358, lr 5.62e-04
+step 2080/4062: loss 2.1373, lr 5.54e-04
+step 2100/4062: loss 2.3546, lr 5.47e-04
+step 2120/4062: loss 2.1056, lr 5.40e-04
+step 2140/4062: loss 2.2979, lr 5.33e-04
+step 2160/4062: loss 2.1739, lr 5.26e-04
+step 2180/4062: loss 2.1907, lr 5.19e-04
+step 2200/4062: loss 2.2171, lr 5.11e-04
+step 2200: val loss 2.3460
+step 2220/4062: loss 2.2738, lr 5.04e-04
+step 2240/4062: loss 2.4135, lr 4.97e-04
+step 2260/4062: loss 2.3384, lr 4.90e-04
+step 2280/4062: loss 2.1738, lr 4.83e-04
+step 2300/4062: loss 2.4947, lr 4.76e-04
+step 2320/4062: loss 2.5164, lr 4.69e-04
+step 2340/4062: loss 2.1649, lr 4.62e-04
+step 2360/4062: loss 1.8035, lr 4.55e-04
+step 2380/4062: loss 2.2997, lr 4.48e-04
+step 2400/4062: loss 2.2807, lr 4.41e-04
+step 2400: val loss 2.3404
+step 2420/4062: loss 2.3983, lr 4.34e-04
+step 2440/4062: loss 2.3433, lr 4.27e-04
+step 2460/4062: loss 2.2941, lr 4.20e-04
+step 2480/4062: loss 2.1856, lr 4.13e-04
+step 2500/4062: loss 2.2800, lr 4.06e-04
+step 2520/4062: loss 2.3474, lr 4.00e-04
+step 2540/4062: loss 1.8098, lr 3.93e-04
+step 2560/4062: loss 2.3654, lr 3.86e-04
+step 2580/4062: loss 2.4311, lr 3.79e-04
+step 2600/4062: loss 2.3533, lr 3.73e-04
+step 2600: val loss 2.3348
+step 2620/4062: loss 2.4067, lr 3.66e-04
+step 2640/4062: loss 2.1695, lr 3.60e-04
+step 2660/4062: loss 2.1845, lr 3.53e-04
+step 2680/4062: loss 2.5643, lr 3.47e-04
+step 2700/4062: loss 2.2201, lr 3.40e-04
+step 2720/4062: loss 2.2354, lr 3.34e-04
+step 2740/4062: loss 2.3069, lr 3.28e-04
+step 2760/4062: loss 2.3041, lr 3.22e-04
+step 2780/4062: loss 2.2292, lr 3.16e-04
+step 2800/4062: loss 2.2976, lr 3.09e-04
+step 2800: val loss 2.3306
+step 2820/4062: loss 2.2830, lr 3.03e-04
+step 2840/4062: loss 2.4057, lr 2.97e-04
+step 2860/4062: loss 2.3054, lr 2.92e-04
+step 2880/4062: loss 2.3467, lr 2.86e-04
+step 2900/4062: loss 2.4005, lr 2.80e-04
+step 2920/4062: loss 2.2767, lr 2.74e-04
+step 2940/4062: loss 2.3521, lr 2.69e-04
+step 2960/4062: loss 2.3940, lr 2.63e-04
+step 2980/4062: loss 2.2396, lr 2.58e-04
+step 3000/4062: loss 2.4245, lr 2.52e-04
+step 3000: val loss 2.3251
+step 3020/4062: loss 2.3372, lr 2.47e-04
+step 3040/4062: loss 2.2391, lr 2.42e-04
+step 3060/4062: loss 2.2828, lr 2.36e-04
+step 3080/4062: loss 2.1742, lr 2.31e-04
+step 3100/4062: loss 2.3693, lr 2.26e-04
+step 3120/4062: loss 2.2158, lr 2.21e-04
+step 3140/4062: loss 2.4139, lr 2.16e-04
+step 3160/4062: loss 2.2574, lr 2.12e-04
+step 3180/4062: loss 2.2491, lr 2.07e-04
+step 3200/4062: loss 1.9564, lr 2.02e-04
+step 3200: val loss 2.3202
+step 3220/4062: loss 2.3250, lr 1.98e-04
+step 3240/4062: loss 2.0525, lr 1.93e-04
+step 3260/4062: loss 2.3510, lr 1.89e-04
+step 3280/4062: loss 2.2057, lr 1.85e-04
+step 3300/4062: loss 2.3872, lr 1.81e-04
+step 3320/4062: loss 1.9777, lr 1.77e-04
+step 3340/4062: loss 2.1835, lr 1.73e-04
+step 3360/4062: loss 2.3921, lr 1.69e-04
+step 3380/4062: loss 2.1514, lr 1.65e-04
+step 3400/4062: loss 2.3618, lr 1.61e-04
+step 3400: val loss 2.3172
+step 3420/4062: loss 2.2034, lr 1.58e-04
+step 3440/4062: loss 2.4817, lr 1.54e-04
+step 3460/4062: loss 2.0560, lr 1.51e-04
+step 3480/4062: loss 2.5691, lr 1.48e-04
+step 3500/4062: loss 2.3671, lr 1.45e-04
+step 3520/4062: loss 1.9921, lr 1.42e-04
+step 3540/4062: loss 2.2144, lr 1.39e-04
+step 3560/4062: loss 2.4389, lr 1.36e-04
+step 3580/4062: loss 2.2584, lr 1.33e-04
+step 3600/4062: loss 2.3689, lr 1.30e-04
+step 3600: val loss 2.3139
+step 3620/4062: loss 2.1553, lr 1.28e-04
+step 3640/4062: loss 2.4680, lr 1.25e-04
+step 3660/4062: loss 2.2565, lr 1.23e-04
+step 3680/4062: loss 2.2277, lr 1.21e-04
+step 3700/4062: loss 2.0004, lr 1.19e-04
+step 3720/4062: loss 2.2033, lr 1.17e-04
+step 3740/4062: loss 2.2023, lr 1.15e-04
+step 3760/4062: loss 2.2577, lr 1.13e-04
+step 3780/4062: loss 2.1865, lr 1.11e-04
+step 3800/4062: loss 2.6020, lr 1.10e-04
+step 3800: val loss 2.3115
+step 3820/4062: loss 2.2804, lr 1.08e-04
+step 3840/4062: loss 2.3411, lr 1.07e-04
+step 3860/4062: loss 2.3063, lr 1.06e-04
+step 3880/4062: loss 2.3633, lr 1.05e-04
+step 3900/4062: loss 2.2938, lr 1.04e-04
+step 3920/4062: loss 2.2164, lr 1.03e-04
+step 3940/4062: loss 2.1268, lr 1.02e-04
+step 3960/4062: loss 2.2886, lr 1.02e-04
+step 3980/4062: loss 2.4334, lr 1.01e-04
+step 4000/4062: loss 2.4419, lr 1.01e-04
+step 4000: val loss 2.3102
+step 4020/4062: loss 2.4121, lr 1.00e-04
+step 4040/4062: loss 1.9107, lr 1.00e-04
+step 4060/4062: loss 1.8580, lr 1.00e-04
+step 4062: val loss 2.3099
+done in 51.2 min, val loss 2.3099

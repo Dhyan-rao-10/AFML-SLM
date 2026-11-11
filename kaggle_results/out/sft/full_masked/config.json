@@ -1,0 +1,32 @@
+{
+  "base_ckpt": "out/scaling/l_s0/ckpt.pt",
+  "sft_dir": "data/sft",
+  "out_dir": "out/sft/full_masked",
+  "mode": "full",
+  "mask_prompt": true,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate",
+    "up",
+    "down"
+  ],
+  "epochs": 2,
+  "batch_size": 16,
+  "grad_accum": 2,
+  "lr": 0.0001,
+  "min_lr_ratio": 0.1,
+  "warmup_ratio": 0.03,
+  "weight_decay": 0.0,
+  "grad_clip": 1.0,
+  "eval_interval": 200,
+  "max_val_examples": 1000,
+  "max_train_examples": null,
+  "seed": 0,
+  "device": "cuda"
+}

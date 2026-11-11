@@ -1,0 +1,10 @@
+{
+  "base_ckpt": "out/scaling/l_s0/ckpt.pt",
+  "out_dir": "out/sft/full_masked",
+  "mode": "full",
+  "mask_prompt": true,
+  "epochs": 2,
+  "batch_size": 16,
+  "grad_accum": 2,
+  "lr": 1e-4
+}

@@ -1,0 +1,20 @@
+{
+  "data_dir": "data/tinystories",
+  "model": {
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "d_model": 384,
+    "pos_emb": "learned",
+    "norm": "layernorm",
+    "mlp": "gelu"
+  },
+  "batch_size": 32,
+  "grad_accum": 4,
+  "max_tokens": 100000000,
+  "lr": 1e-3,
+  "min_lr": 1e-4,
+  "warmup_iters": 100,
+  "eval_interval": 100,
+  "eval_iters": 40
+}

@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/ablations/gqa_s0",
+  "model": {
+    "vocab_size": 8192,
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_kv_head": 2,
+    "d_model": 384,
+    "pos_emb": "learned",
+    "norm": "layernorm",
+    "mlp": "gelu",
+    "mlp_hidden": 1536,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 12789504,
+  "params_non_embedding": 9447168,
+  "tokens": 100007936,
+  "final_val_loss": 1.8000114381313324,
+  "best_val_loss": 1.8000114381313324,
+  "wall_time_s": 975.6486024856567,
+  "tok_per_s": 102504.05293997256,
+  "peak_mem_gb": 3.68476416
+}

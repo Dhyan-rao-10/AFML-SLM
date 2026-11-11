@@ -1,0 +1,30 @@
+[gpu1 18:49] start out/ablations/baseline_s1
+[gpu1 19:07] done  out/ablations/baseline_s1 in 18 min, val loss 1.7885
+[gpu1 19:07] start out/ablations/rope_s1
+[gpu1 19:27] done  out/ablations/rope_s1 in 21 min, val loss 1.7374
+[gpu1 19:27] start out/ablations/rmsnorm_s1
+[gpu1 19:48] done  out/ablations/rmsnorm_s1 in 21 min, val loss 1.7902
+[gpu1 19:48] start out/ablations/swiglu_s1
+[gpu1 20:07] done  out/ablations/swiglu_s1 in 19 min, val loss 1.7261
+[gpu1 20:07] start out/ablations/gqa_s1
+[gpu1 20:25] done  out/ablations/gqa_s1 in 18 min, val loss 1.8008
+[gpu1 20:25] start out/ablations/modern_s1
+[gpu1 20:48] done  out/ablations/modern_s1 in 23 min, val loss 1.6862
+[gpu1 20:48] nothing more I can do; failed or blocked: out/eval/base, out/eval/full_masked, out/eval/full_unmasked, out/eval/lora_masked, out/eval/lora_unmasked, out/sft/full_masked, out/sft/full_unmasked, out/sft/lora_masked, out/sft/lora_unmasked, out/scaling/l_s0, out/scaling/m_s0, out/scaling/s_s0
+[gpu1] finished: stopped
+[gpu1 08:35] start out/scaling/l_s0
+[gpu1 18:47] done  out/scaling/l_s0 in 612 min, val loss 3.2891
+[gpu1 18:47] start out/sft/full_masked
+[gpu1 19:29] done  out/sft/full_masked in 43 min, val loss 2.2066
+[gpu1 19:29] 5 job(s) left need more time than remains; stopping until the next session
+[gpu1] finished: paused
+[gpu1 03:53] start out/eval/full_masked
+[gpu1 03:58] done  out/eval/full_masked in 5 min
+[gpu1 03:58] start out/eval/full_unmasked
+[gpu1 04:03] done  out/eval/full_unmasked in 5 min
+[gpu1 04:03] start out/sft/lora_masked
+[gpu1 04:55] done  out/sft/lora_masked in 52 min, val loss 2.3099
+[gpu1 04:55] start out/eval/lora_masked
+[gpu1 05:00] done  out/eval/lora_masked in 5 min
+[gpu1 05:00] all jobs done
+[gpu1] finished: complete

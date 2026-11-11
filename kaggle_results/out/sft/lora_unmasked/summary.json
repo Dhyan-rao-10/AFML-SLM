@@ -1,0 +1,13 @@
+{
+  "out_dir": "out/sft/lora_unmasked",
+  "mode": "lora",
+  "mask_prompt": false,
+  "trainable_params": 1794048,
+  "total_params": 45584896,
+  "train_examples": 64982,
+  "steps": 4062,
+  "final_val_loss": 2.3191990258548674,
+  "wall_time_s": 2881.4957044124603,
+  "gpu_hours": 0.8004154734479056,
+  "peak_mem_gb": 10.192900608
+}

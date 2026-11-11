@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/ablations/rope_s0",
+  "model": {
+    "vocab_size": 8192,
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_kv_head": 6,
+    "d_model": 384,
+    "pos_emb": "rope",
+    "norm": "layernorm",
+    "mlp": "gelu",
+    "mlp_hidden": 1536,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 13772544,
+  "params_non_embedding": 10626816,
+  "tokens": 100007936,
+  "final_val_loss": 1.7176781386137008,
+  "best_val_loss": 1.7176781386137008,
+  "wall_time_s": 1123.5433900356293,
+  "tok_per_s": 89011.19163437792,
+  "peak_mem_gb": 3.70363392
+}

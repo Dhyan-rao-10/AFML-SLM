@@ -1,0 +1,11 @@
+[prep 18:40] preparing tinystories
+[prep 18:48] tinystories ready in 9 min
+[prep 18:48] preparing sft
+[prep 18:48] sft ready in 0 min
+[prep 18:48] preparing fineweb-edu
+[prep 18:53] FAIL preparing fineweb-edu (exit -11); see data/prepare_fineweb-edu.log
+[prep] finished: complete
+[prep 08:14] preparing fineweb-edu
+[prep 08:34] fineweb-edu ready in 20 min
+[prep] finished: complete
+[prep] finished: complete

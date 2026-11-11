@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/ablations/modern_s0",
+  "model": {
+    "vocab_size": 8192,
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_kv_head": 2,
+    "d_model": 384,
+    "pos_emb": "rope",
+    "norm": "rmsnorm",
+    "mlp": "swiglu",
+    "mlp_hidden": 1024,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 12587904,
+  "params_non_embedding": 9442176,
+  "tokens": 100007936,
+  "final_val_loss": 1.7108534693717956,
+  "best_val_loss": 1.7108534693717956,
+  "wall_time_s": 1235.2889437675476,
+  "tok_per_s": 80959.14442088551,
+  "peak_mem_gb": 4.283347456
+}

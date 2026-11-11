@@ -1,0 +1,12 @@
+{
+  "base_ckpt": "out/scaling/l_s0/ckpt.pt",
+  "out_dir": "out/sft/lora_masked",
+  "mode": "lora",
+  "mask_prompt": true,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "epochs": 2,
+  "batch_size": 16,
+  "grad_accum": 2,
+  "lr": 1e-3
+}

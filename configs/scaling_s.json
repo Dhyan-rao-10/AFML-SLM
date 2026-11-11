@@ -1,0 +1,21 @@
+{
+  "data_dir": "data/fineweb-edu",
+  "model": {
+    "block_size": 1024,
+    "n_layer": 6,
+    "n_head": 4,
+    "n_kv_head": 2,
+    "d_model": 256,
+    "pos_emb": "rope",
+    "norm": "rmsnorm",
+    "mlp": "swiglu"
+  },
+  "batch_size": 16,
+  "grad_accum": 8,
+  "tokens_per_param": 20,
+  "lr": 1e-3,
+  "min_lr": 1e-4,
+  "warmup_iters": 200,
+  "eval_interval": 250,
+  "eval_iters": 40
+}

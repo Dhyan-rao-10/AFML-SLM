@@ -1,0 +1,100 @@
+{
+  "pairs": [
+    {
+      "x": "full_masked",
+      "y": "base",
+      "prompts": 200,
+      "x_score": 0.78375,
+      "ci95": 0.03379815027943922,
+      "x_wins": 127,
+      "y_wins": 2,
+      "ties": 71,
+      "order_consistent": 1.0
+    },
+    {
+      "x": "full_masked",
+      "y": "lora_masked",
+      "prompts": 200,
+      "x_score": 0.54875,
+      "ci95": 0.04457722662039249,
+      "x_wins": 63,
+      "y_wins": 40,
+      "ties": 97,
+      "order_consistent": 0.985
+    },
+    {
+      "x": "full_masked",
+      "y": "full_unmasked",
+      "prompts": 200,
+      "x_score": 0.53625,
+      "ci95": 0.04302081986911751,
+      "x_wins": 55,
+      "y_wins": 37,
+      "ties": 108,
+      "order_consistent": 0.995
+    },
+    {
+      "x": "lora_masked",
+      "y": "lora_unmasked",
+      "prompts": 200,
+      "x_score": 0.52875,
+      "ci95": 0.04298995894801202,
+      "x_wins": 56,
+      "y_wins": 46,
+      "ties": 98,
+      "order_consistent": 0.99
+    }
+  ],
+  "judgments": 1600,
+  "api_equivalent_cost_usd": 11.8566056,
+  "by_category": {
+    "brainstorming": {
+      "full_masked vs base": 0.73,
+      "full_masked vs lora_masked": 0.53,
+      "full_masked vs full_unmasked": 0.46,
+      "lora_masked vs lora_unmasked": 0.54
+    },
+    "general_qa": {
+      "full_masked vs base": 0.8194444444444444,
+      "full_masked vs lora_masked": 0.5833333333333334,
+      "full_masked vs full_unmasked": 0.4930555555555556,
+      "lora_masked vs lora_unmasked": 0.5486111111111112
+    },
+    "open_qa": {
+      "full_masked vs base": 0.6979166666666666,
+      "full_masked vs lora_masked": 0.484375,
+      "full_masked vs full_unmasked": 0.515625,
+      "lora_masked vs lora_unmasked": 0.5520833333333334
+    },
+    "closed_qa": {
+      "full_masked vs base": 0.7625,
+      "full_masked vs lora_masked": 0.4875,
+      "full_masked vs full_unmasked": 0.4875,
+      "lora_masked vs lora_unmasked": 0.425
+    },
+    "creative_writing": {
+      "full_masked vs base": 0.9038461538461539,
+      "full_masked vs lora_masked": 0.6923076923076923,
+      "full_masked vs full_unmasked": 0.6923076923076923,
+      "lora_masked vs lora_unmasked": 0.5961538461538461
+    },
+    "classification": {
+      "full_masked vs base": 0.7833333333333333,
+      "full_masked vs lora_masked": 0.49166666666666664,
+      "full_masked vs full_unmasked": 0.5333333333333333,
+      "lora_masked vs lora_unmasked": 0.6166666666666667
+    },
+    "information_extraction": {
+      "full_masked vs base": 0.8235294117647058,
+      "full_masked vs lora_masked": 0.6470588235294118,
+      "full_masked vs full_unmasked": 0.6176470588235294,
+      "lora_masked vs lora_unmasked": 0.4264705882352941
+    },
+    "summarization": {
+      "full_masked vs base": 1.0,
+      "full_masked vs lora_masked": 0.7045454545454546,
+      "full_masked vs full_unmasked": 0.7272727272727273,
+      "lora_masked vs lora_unmasked": 0.36363636363636365
+    }
+  }
+}

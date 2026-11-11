@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/scaling/l_s0",
+  "model": {
+    "vocab_size": 16384,
+    "block_size": 1024,
+    "n_layer": 12,
+    "n_head": 8,
+    "n_kv_head": 4,
+    "d_model": 512,
+    "pos_emb": "rope",
+    "norm": "rmsnorm",
+    "mlp": "swiglu",
+    "mlp_hidden": 1408,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 43790848,
+  "params_non_embedding": 35402240,
+  "tokens": 875823104,
+  "final_val_loss": 3.289102518558502,
+  "best_val_loss": 3.289102518558502,
+  "wall_time_s": 36735.055127859116,
+  "tok_per_s": 23841.61670512354,
+  "peak_mem_gb": 10.31988992
+}

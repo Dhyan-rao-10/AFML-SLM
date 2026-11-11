@@ -1,0 +1,76 @@
+model: 8.62M params (4.43M non-embedding)
+training: 1316 iters x 131,072 tokens = 172M tokens on cuda
+iter 0: val loss 9.7501
+iter 0: loss 9.7475, lr 5.00e-06, grad norm 3.58, 30,269 tok/s
+iter 20: loss 9.1136, lr 1.05e-04, grad norm 1.32, 91,045 tok/s
+iter 40: loss 8.3907, lr 2.05e-04, grad norm 1.20, 90,829 tok/s
+iter 60: loss 7.5220, lr 3.05e-04, grad norm 0.96, 91,652 tok/s
+iter 80: loss 6.9449, lr 4.05e-04, grad norm 0.69, 91,610 tok/s
+iter 100: loss 6.5438, lr 5.05e-04, grad norm 0.37, 91,119 tok/s
+iter 120: loss 6.3126, lr 6.05e-04, grad norm 0.53, 90,916 tok/s
+iter 140: loss 6.2876, lr 7.05e-04, grad norm 0.53, 90,631 tok/s
+iter 160: loss 5.9801, lr 8.05e-04, grad norm 0.47, 90,702 tok/s
+iter 180: loss 5.8856, lr 9.05e-04, grad norm 0.42, 90,381 tok/s
+iter 200: loss 5.7672, lr 1.00e-03, grad norm 0.93, 90,412 tok/s
+iter 220: loss 5.6367, lr 9.99e-04, grad norm 0.46, 90,538 tok/s
+iter 240: loss 5.4733, lr 9.97e-04, grad norm 0.73, 90,380 tok/s
+iter 250: val loss 5.4823
+iter 260: loss 5.5081, lr 9.94e-04, grad norm 0.68, 83,081 tok/s
+iter 280: loss 5.2589, lr 9.89e-04, grad norm 0.60, 90,736 tok/s
+iter 300: loss 5.2173, lr 9.82e-04, grad norm 0.65, 90,721 tok/s
+iter 320: loss 5.1581, lr 9.75e-04, grad norm 0.60, 90,530 tok/s
+iter 340: loss 5.0473, lr 9.66e-04, grad norm 0.90, 90,853 tok/s
+iter 360: loss 4.9652, lr 9.55e-04, grad norm 0.52, 91,073 tok/s
+iter 380: loss 4.9024, lr 9.43e-04, grad norm 0.62, 91,114 tok/s
+iter 400: loss 4.9741, lr 9.31e-04, grad norm 0.62, 91,251 tok/s
+iter 420: loss 4.8601, lr 9.16e-04, grad norm 0.56, 91,230 tok/s
+iter 440: loss 4.8479, lr 9.01e-04, grad norm 0.56, 91,225 tok/s
+iter 460: loss 4.7304, lr 8.85e-04, grad norm 0.65, 91,046 tok/s
+iter 480: loss 4.8043, lr 8.67e-04, grad norm 0.71, 91,001 tok/s
+iter 500: val loss 4.7819
+iter 500: loss 4.7823, lr 8.49e-04, grad norm 0.74, 83,203 tok/s
+iter 520: loss 4.5812, lr 8.29e-04, grad norm 0.63, 90,935 tok/s
+iter 540: loss 4.6852, lr 8.09e-04, grad norm 0.63, 90,953 tok/s
+iter 560: loss 4.6912, lr 7.88e-04, grad norm 0.56, 90,864 tok/s
+iter 580: loss 4.6466, lr 7.66e-04, grad norm 0.51, 91,038 tok/s
+iter 600: loss 4.5299, lr 7.44e-04, grad norm 0.56, 90,970 tok/s
+iter 620: loss 4.6404, lr 7.20e-04, grad norm 0.53, 91,072 tok/s
+iter 640: loss 4.5551, lr 6.97e-04, grad norm 0.62, 91,000 tok/s
+iter 660: loss 4.5424, lr 6.73e-04, grad norm 0.55, 91,009 tok/s
+iter 680: loss 4.5352, lr 6.48e-04, grad norm 0.57, 91,132 tok/s
+iter 700: loss 4.4905, lr 6.23e-04, grad norm 0.62, 90,949 tok/s
+iter 720: loss 4.5176, lr 5.98e-04, grad norm 0.54, 91,152 tok/s
+iter 740: loss 4.4692, lr 5.73e-04, grad norm 0.54, 90,960 tok/s
+iter 750: val loss 4.5025
+iter 760: loss 4.4219, lr 5.47e-04, grad norm 0.55, 83,251 tok/s
+iter 780: loss 4.4448, lr 5.22e-04, grad norm 0.62, 91,151 tok/s
+iter 800: loss 4.3234, lr 4.97e-04, grad norm 0.53, 91,164 tok/s
+iter 820: loss 4.4058, lr 4.72e-04, grad norm 0.50, 91,109 tok/s
+iter 840: loss 4.5908, lr 4.47e-04, grad norm 0.53, 90,945 tok/s
+iter 860: loss 4.2877, lr 4.23e-04, grad norm 0.59, 91,048 tok/s
+iter 880: loss 4.4208, lr 3.98e-04, grad norm 0.57, 91,018 tok/s
+iter 900: loss 4.3275, lr 3.75e-04, grad norm 0.58, 91,036 tok/s
+iter 920: loss 4.3574, lr 3.52e-04, grad norm 0.51, 91,066 tok/s
+iter 940: loss 4.2419, lr 3.29e-04, grad norm 0.53, 90,951 tok/s
+iter 960: loss 4.4526, lr 3.08e-04, grad norm 0.48, 91,094 tok/s
+iter 980: loss 4.3624, lr 2.87e-04, grad norm 0.55, 90,977 tok/s
+iter 1000: val loss 4.3513
+iter 1000: loss 4.3027, lr 2.67e-04, grad norm 0.52, 83,323 tok/s
+iter 1020: loss 4.3365, lr 2.47e-04, grad norm 0.52, 90,964 tok/s
+iter 1040: loss 4.3390, lr 2.29e-04, grad norm 0.55, 91,124 tok/s
+iter 1060: loss 4.2639, lr 2.12e-04, grad norm 0.48, 91,157 tok/s
+iter 1080: loss 4.2343, lr 1.96e-04, grad norm 0.48, 91,071 tok/s
+iter 1100: loss 4.3517, lr 1.81e-04, grad norm 0.52, 91,152 tok/s
+iter 1120: loss 4.2892, lr 1.67e-04, grad norm 0.46, 91,068 tok/s
+iter 1140: loss 4.2988, lr 1.54e-04, grad norm 0.53, 91,072 tok/s
+iter 1160: loss 4.3117, lr 1.43e-04, grad norm 0.49, 91,026 tok/s
+iter 1180: loss 4.1884, lr 1.33e-04, grad norm 0.48, 91,115 tok/s
+iter 1200: loss 4.2218, lr 1.24e-04, grad norm 0.52, 91,123 tok/s
+iter 1220: loss 4.2105, lr 1.16e-04, grad norm 0.53, 91,021 tok/s
+iter 1240: loss 4.2541, lr 1.10e-04, grad norm 0.50, 91,046 tok/s
+iter 1250: val loss 4.2774
+iter 1260: loss 4.2004, lr 1.06e-04, grad norm 0.53, 83,314 tok/s
+iter 1280: loss 4.1589, lr 1.02e-04, grad norm 0.55, 91,352 tok/s
+iter 1300: loss 4.2710, lr 1.00e-04, grad norm 0.51, 91,414 tok/s
+iter 1316: val loss 4.2665
+done in 31.9 min, final val loss 4.2665

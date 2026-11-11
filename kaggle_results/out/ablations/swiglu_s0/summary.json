@@ -1,0 +1,27 @@
+{
+  "out_dir": "out/ablations/swiglu_s0",
+  "model": {
+    "vocab_size": 8192,
+    "block_size": 512,
+    "n_layer": 6,
+    "n_head": 6,
+    "n_kv_head": 6,
+    "d_model": 384,
+    "pos_emb": "learned",
+    "norm": "layernorm",
+    "mlp": "swiglu",
+    "mlp_hidden": 1024,
+    "rope_theta": 10000.0,
+    "dropout": 0.0,
+    "tie_embeddings": true
+  },
+  "seed": 0,
+  "params": 13969152,
+  "params_non_embedding": 10626816,
+  "tokens": 100007936,
+  "final_val_loss": 1.719395425915718,
+  "best_val_loss": 1.719395425915718,
+  "wall_time_s": 1042.9980041980743,
+  "tok_per_s": 95885.06938409024,
+  "peak_mem_gb": 3.979023872
+}
